@@ -1,5 +1,0 @@
-C:\MyProject\ProxyBrowser\ProxyBrowser\bin\ProxyBrowser.dll
-C:\MyProject\ProxyBrowser\ProxyBrowser\bin\ProxyBrowser.pdb
-C:\MyProject\ProxyBrowser\ProxyBrowser\obj\Debug\ResolveAssemblyReference.cache
-C:\MyProject\ProxyBrowser\ProxyBrowser\obj\Debug\ProxyBrowser.dll
-C:\MyProject\ProxyBrowser\ProxyBrowser\obj\Debug\ProxyBrowser.pdb
