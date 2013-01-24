@@ -1,0 +1,24 @@
+form
+{
+    width:  100%;
+    height: 100%;
+    
+    margin-top:     0%; /* 上の余白 */
+    margin-bottom:  0%; /* 下の余白 */
+    margin-left:    0%; /* 左の余白 */
+    margin-right:   0%; /* 右の余白 */
+}
+
+div
+{
+    width:  100%;
+    height: 100%;
+    
+    margin-top:     0%; /* 上の余白 */
+    margin-bottom:  0%; /* 下の余白 */
+    margin-left:    0%; /* 左の余白 */
+    margin-right:   0%; /* 右の余白 */
+    
+    top:auto;
+    left:auto;
+}
