@@ -33,10 +33,6 @@
             <asp:TextBox ID="URL" runat="server" Width="500px" Wrap="False" 
                 ToolTip="BitMap画像にしたいURLを入力して下さい"></asp:TextBox>
             <br />
-            <asp:Label ID="Label_FileName" runat="server" BorderStyle="Ridge" Text="ファイル名"></asp:Label>
-            <asp:TextBox ID="TextBox_FileName" runat="server" Width="500px" 
-                ToolTip="BitMapのファイル名を入力して下さい。"></asp:TextBox>
-            <br />
          </div>
          <div align="center">
             <input id="TextBox_X_Size" type="text" style="visibility: hidden" 

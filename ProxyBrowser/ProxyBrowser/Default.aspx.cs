@@ -36,7 +36,9 @@ namespace ProxyBrowser
                 Directory.CreateDirectory(strFilePath);
             }
 
-            string FileName = System.IO.Path.GetFileNameWithoutExtension(TextBox_FileName.Text);
+            DateTime dtNow = DateTime.Now;
+            string FileName = dtNow.Year.ToString() + "-" + dtNow.Month.ToString() + "-" + dtNow.Day.ToString()
+                                + "_" + dtNow.Hour + "-" + dtNow.Minute + "-" + dtNow.Second.ToString();
             strFilePath += FileName + ".png";
 
             string strCheck = Request.Form["SizeCheck"];
@@ -62,12 +64,12 @@ namespace ProxyBrowser
 
             string sFilePath;           // ファイルパス
             string sDownloadFileName;   // ダウンロードファイル名
-            string sFileName = TextBox_FileName.Text + ".png";
+            string sFileName = FileName + ".png";
             
             //-----------------------------------------------------------------------------------------
             // 物理ファイルパス取得
             //-----------------------------------------------------------------------------------------
-            sFilePath = MapPath(string.Format(@"./File/{0}", sFileName));
+            sFilePath = MapPath(string.Format(@"./image/{0}", sFileName));
 
             //-----------------------------------------------------------------------------------------
             // 日本語ファイル名を考慮したダウンロードファイル名作成
