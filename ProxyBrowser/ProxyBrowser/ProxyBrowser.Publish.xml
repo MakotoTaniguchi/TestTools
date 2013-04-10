@@ -1,4 +1,16 @@
 <publishData>
+  <publishTarget publishUrl="C:\Users\Makoto Taniguchi\Desktop\CreatePngBrowser\">
+    <file relUrl="bin/ProxyBrowser.pdb" publishTime="04/07/2013 14:39:31" />
+    <file relUrl="Default.aspx" publishTime="04/07/2013 14:07:48" />
+    <file relUrl="bin/ProxyBrowser.dll" publishTime="04/07/2013 14:39:31" />
+    <file relUrl="Web.config" publishTime="01/24/2013 18:55:31" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\Users\Makoto Taniguchi\Desktop\">
+    <file relUrl="bin/ProxyBrowser.pdb" publishTime="04/07/2013 14:12:31" />
+    <file relUrl="Default.aspx" publishTime="04/07/2013 14:07:48" />
+    <file relUrl="bin/ProxyBrowser.dll" publishTime="04/07/2013 14:12:31" />
+    <file relUrl="Web.config" publishTime="01/24/2013 18:55:31" />
+  </publishTarget>
   <publishTarget publishUrl="C:\Users\makoto\Desktop\FullSizeWebSite\">
     <file relUrl="bin/ProxyBrowser.pdb" publishTime="09/12/2012 03:19:04" />
     <file relUrl="Default.aspx" publishTime="09/12/2012 03:05:38" />
